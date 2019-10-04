@@ -7,6 +7,8 @@ import {
   Platform
 } from 'react-native'
 
+console.log(NativeModules);
+
 const mask = NativeModules.RNTextInputMask.mask
 const unmask = NativeModules.RNTextInputMask.unmask
 const setMask = NativeModules.RNTextInputMask.setMask
